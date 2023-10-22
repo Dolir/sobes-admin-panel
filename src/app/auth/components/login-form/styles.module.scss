@@ -1,0 +1,14 @@
+.formContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  & > div {
+    min-width: 300px;
+  }
+}
+
+.formTitle {
+  text-align: center;
+  margin-bottom: 40px !important;
+}

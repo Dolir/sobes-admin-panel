@@ -1,0 +1,9 @@
+.mainContainer {
+  display: flex;
+
+  & > div:last-child {
+    max-height: 100vh;
+    overflow-y: scroll;
+    flex: 1;
+  }
+}

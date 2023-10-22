@@ -1,0 +1,9 @@
+.sidebarContainer {
+  width: 200px;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  & > ul {
+    flex: 1;
+  }
+}

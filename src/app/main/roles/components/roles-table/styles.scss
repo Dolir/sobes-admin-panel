@@ -1,0 +1,11 @@
+.roles-table {
+  .ant-pagination {
+    margin-right: 16px !important;
+  }
+  .ant-table-placeholder {
+    height: calc(100vh - 300px);
+  }
+  .ant-table-body {
+    height: calc(100vh - 300px);
+  }
+}
